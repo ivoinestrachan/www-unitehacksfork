@@ -3,7 +3,6 @@ import Attend from "../components/Attend";
 import Faq from "../components/Faq";
 import DateTime from "../components/Time";
 import locationicon from "../public/assets/locationicon.svg";
-
 export default function Home() {
   return (
     <>
@@ -32,8 +31,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <DateTime />
       <Attend />
+      <DateTime />
       <Faq />
     </>
   );
